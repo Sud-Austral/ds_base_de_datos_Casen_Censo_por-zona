@@ -121,7 +121,7 @@ head(comuna_corr,10)
 ## Leemos la tabla shp original que contempla 221 zonas más.
 
 ```{r}
-archivo_shp <- read_sf("shp/lim_ZONLOC_codigos.shp")
+archivo_shp <- read_sf("../shp/lim_ZONLOC_codigos.shp")
 head(data.frame(archivo_shp),10)
 ```
 
